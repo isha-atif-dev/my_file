@@ -1,2 +1,3 @@
 id,date,amount,category,note
-101,2025-12-28,12.0,clothes,shirt
+1,2025-12-29,21.0,food,dinner
+2,2025-12-29,45.0,rent,room rent
