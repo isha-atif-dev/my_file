@@ -1,12 +1,12 @@
 from storage import read_expenses, write_expense
 from datetime import date
-from expenses import display_expenses,category_summary,display_category_summary
+from expenses import display_expenses, category_summary, display_category_summary
 
 
 def main():
     program_run = True
     while program_run:
-        menu_options = ["Add expense", "View expense", "View category Summary","Exit"]
+        menu_options = ["Add expense", "View expense", "View category Summary", "Exit"]
         for index, menu in enumerate(menu_options):
             print(f"{index + 1}: {menu}")
         while True:
